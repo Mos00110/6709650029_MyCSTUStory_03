@@ -190,6 +190,9 @@ img:hover{
     transform: scale(1.1);
 }
 .profile{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
     margin-left: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -207,6 +210,9 @@ i{
     font-weight: 500;
 }
 .study{
+    width: 20%;
+    max-width: 100px;
+    height: auto;
     vertical-align: middle;
     margin-left: 20px ;
 }
@@ -254,6 +260,10 @@ p.story{
 }
 fieldset{
     margin: 0px 30px;
+}
+legend{
+    font-size: larger; 
+    font-weight: 800;
 }
 footer {
     background-color: #df8fff;
@@ -429,5 +439,42 @@ footer p {
     h2{
         font-size: 20px;
         margin: 5px;
+    }
+    h1.story{
+        display: inline;
+        font-family: "Yusei Magic";
+        font-size: 24px;
+        color:rgb(255, 123, 35);
+        text-shadow: 2px 2px 3px black;
+    }
+    p.story{
+        padding: 10px;
+        margin: 0 5px 0 5px;
+    }
+    legend{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    h4.picofstory{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+    .pic{
+        display: inline-block;
+        flex-direction: column;
+        border: 1px solid pink;
+    }
+    .pic .description{
+        text-align: center;
+        padding: 5px;
+    }
+    .pic:hover{
+        border: 1px solid black;
+    }
+    .picc{
+        width: 70%;
+        height: auto;
     }
 }
